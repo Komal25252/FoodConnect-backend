@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node backend/server/server.js"
+    //start part is edited
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
