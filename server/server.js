@@ -55,3 +55,7 @@ connectDB().then(() => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("API running...");
+});
+
